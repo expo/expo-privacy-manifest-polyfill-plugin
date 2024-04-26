@@ -1,7 +1,8 @@
 # expo-privacy-manifest-polyfill-plugin
 
 Expo Config Plugin to configure Apple privacy manifests in SDK49 and below.
-For SDK50+, the plugin lives in https://github.com/expo/expo/tree/main/packages/%40expo/config-plugins and can be used by default.
+
+For SDK50+, the plugin lives in [@expo/config-plugins](https://github.com/expo/expo/tree/main/packages/%40expo/config-plugins) and can be used by default.
 
 Learn more: https://docs.expo.dev/guides/apple-privacy/
 
@@ -12,7 +13,7 @@ Learn more: https://docs.expo.dev/guides/apple-privacy/
 First install the package with yarn, npm, or [`npx expo install`](https://docs.expo.io/workflow/expo-cli/#expo-install).
 
 ```sh
-npx expo install expo-privacy-manifest-polyfill-plugin @config-plugins/expo-privacy-manifest-polyfill-plugin
+npx expo install expo-privacy-manifest-polyfill-plugin
 ```
 
 After installing this npm package, add the [config plugin](https://docs.expo.io/guides/config-plugins/) to the [`plugins`](https://docs.expo.io/versions/latest/config/app/#plugins) array of your `app.json` or `app.config.js`:
