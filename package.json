@@ -1,0 +1,36 @@
+{
+  "name": "@config-plugins/expo-privacy-manifest-polyfill-plugin",
+  "version": "0.0.0",
+  "description": "Config plugin for expo-privacy-manifest-polyfill-plugin package",
+  "main": "build/withExpoPrivacyManifestPolyfillPlugin.js",
+  "types": "build/withExpoPrivacyManifestPolyfillPlugin.d.ts",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/expo/config-plugins.git",
+    "directory": "packages/expo-privacy-manifest-polyfill-plugin"
+  },
+  "scripts": {
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "lint": "expo-module lint",
+    "test": "expo-module test",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "expo-module": "expo-module"
+  },
+  "keywords": [
+    "react",
+    "expo",
+    "config-plugins",
+    "prebuild",
+    "expo-privacy-manifest-polyfill-plugin",
+    "expo-50"
+  ],
+  "peerDependencies": {
+    "expo": "^50"
+  },
+  "devDependencies": {
+    "expo-module-scripts": "^3.4.1"
+  }
+}
