@@ -6,6 +6,7 @@
   "main": "build/withExpoPrivacyManifestPolyfillPlugin.js",
   "types": "build/withExpoPrivacyManifestPolyfillPlugin.d.ts",
   "sideEffects": false,
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/expo/config-plugins.git",
