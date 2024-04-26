@@ -1,7 +1,8 @@
 {
-  "name": "@config-plugins/expo-privacy-manifest-polyfill-plugin",
-  "version": "0.0.0",
-  "description": "Config plugin for expo-privacy-manifest-polyfill-plugin package",
+  "name": "expo-privacy-manifest-polyfill-plugin",
+  "version": "0.0.1",
+  "description": "Config plugin for configuring Apple privacy manifests in SDK49 and below",
+  "homepage": "https://docs.expo.dev/guides/apple-privacy/",
   "main": "build/withExpoPrivacyManifestPolyfillPlugin.js",
   "types": "build/withExpoPrivacyManifestPolyfillPlugin.d.ts",
   "sideEffects": false,
@@ -25,10 +26,11 @@
     "config-plugins",
     "prebuild",
     "expo-privacy-manifest-polyfill-plugin",
-    "expo-50"
+    "expo-49"
   ],
   "peerDependencies": {
-    "expo": "^50"
+    "expo": "*",
+    "@expo": "*"
   },
   "devDependencies": {
     "expo-module-scripts": "^3.4.1"
