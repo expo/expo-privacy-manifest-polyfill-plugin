@@ -9,8 +9,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/expo/config-plugins.git",
-    "directory": "packages/expo-privacy-manifest-polyfill-plugin"
+    "url": "https://github.com/expo/expo-privacy-manifest-polyfill-plugin.git"
   },
   "scripts": {
     "build": "expo-module build",
